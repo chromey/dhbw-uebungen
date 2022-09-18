@@ -103,6 +103,16 @@
       "mainClass": "de.dhbw.exam2021.Exam2021Application",
       "projectName": "exam2021",
       "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-S01Application<s01>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "de.dhbw.s01.S01Application",
+      "projectName": "s01",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
     }
   ]
 }

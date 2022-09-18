@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>HTML06 AJAX</title>
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 		<script>
 			function getCharacter() {
@@ -8,12 +9,11 @@
 				$.ajax({
 					url: `https://swapi.dev/api/people/${index}`,
 					success: function (person) {
-						console.log(person);
 						$('#fullName').val(person.name);
 						$('#eyeColor').val(person.eye_color);
 
 						$.ajax({
-							url: response.homeworld,
+							url: person.homeworld,
 							success: function (homeworld) {
 								$('#homeWorld').val(homeworld.name);
 							},

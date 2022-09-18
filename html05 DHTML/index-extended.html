@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script>
+			function addTodo() {
+				const todo = $('#todoInput').val();
+				const important = $('#important').is(':checked');
+				let element;
+				if (important) {
+					element = $('<li class="important">' + todo.toUpperCase() + '</li>');
+				} else {
+					element = $('<li>' + todo + '</li>');
+				}
+				$('#todoList').append(element);
+			}
+		</script>
+		<style>
+			.important {
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>To Do List</h1>
+		<input id="important" type="checkbox" />
+		<input id="todoInput" /><button onclick="addTodo()">Add To List!</button>
+		<ul id="todoList"></ul>
+	</body>
+</html>

@@ -2,5 +2,6 @@
   "java.configuration.updateBuildConfiguration": "automatic",
   "[java]": {
     "editor.formatOnSave": false
-  }
+  },
+  "liveServer.settings.port": 5501
 }
