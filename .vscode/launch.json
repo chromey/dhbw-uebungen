@@ -1,0 +1,108 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Exam2021Application",
+      "request": "launch",
+      "mainClass": "de.dhbw.exam2021.Exam2021Application",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Launch Exam21Application",
+      "request": "launch",
+      "mainClass": "de.dhbw.exam21.Exam21Application",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-S04Application<s04>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "de.dhbw.s04.S04Application",
+      "projectName": "s04",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-S05Application<s05>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "de.dhbw.s05.S05Application",
+      "projectName": "s05",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-S06Application<s06>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "de.dhbw.s06.S06Application",
+      "projectName": "s06",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-Demo4711Application<demo4711>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "de.dhbw.demo4711.Demo4711Application",
+      "projectName": "demo4711",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-X01Application<x01>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "de.dhbw.x01.X01Application",
+      "projectName": "x01",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-S03Application<s03>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "de.dhbw.s03.S03Application",
+      "projectName": "s03",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-S07Application<s07>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "de.dhbw.s07.S07Application",
+      "projectName": "s07",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-Exam21Application<exam21>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "de.dhbw.exam21.Exam21Application",
+      "projectName": "exam21",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-Exam2021Application<exam2021>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "de.dhbw.exam2021.Exam2021Application",
+      "projectName": "exam2021",
+      "args": ""
+    }
+  ]
+}
